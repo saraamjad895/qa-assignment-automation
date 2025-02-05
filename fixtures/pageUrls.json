@@ -1,0 +1,9 @@
+{
+    "webUrls": {
+        "loginUrl": "https://the-internet.herokuapp.com/login",
+        "successfulLoginUrl": "https://the-internet.herokuapp.com/secure"
+    },
+    "ApiEndpoints": {
+        "getApiUrl": "https://jsonplaceholder.typicode.com/posts"
+    }
+}
