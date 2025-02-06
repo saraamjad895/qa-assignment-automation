@@ -25,7 +25,7 @@
       [
         "json",
         {
-          "outputFile": "playwright-reports/results.json"
+          "outputFile": "Reports/results.json"
         }
       ],
       [
@@ -97,12 +97,12 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 9880,
+                  "duration": 10194,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-02-06T21:24:46.807Z",
+                  "startTime": "2025-02-06T21:43:58.136Z",
                   "attachments": [
                     {
                       "name": "trace",
@@ -143,12 +143,12 @@
                 {
                   "workerIndex": 1,
                   "status": "passed",
-                  "duration": 5603,
+                  "duration": 5877,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-02-06T21:24:46.807Z",
+                  "startTime": "2025-02-06T21:43:58.137Z",
                   "attachments": [
                     {
                       "name": "trace",
@@ -189,12 +189,12 @@
                 {
                   "workerIndex": 2,
                   "status": "passed",
-                  "duration": 6305,
+                  "duration": 6611,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-02-06T21:24:46.809Z",
+                  "startTime": "2025-02-06T21:43:58.137Z",
                   "attachments": [
                     {
                       "name": "trace",
@@ -227,12 +227,12 @@
                 {
                   "workerIndex": 3,
                   "status": "passed",
-                  "duration": 6570,
+                  "duration": 6938,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-02-06T21:24:46.810Z",
+                  "startTime": "2025-02-06T21:43:58.139Z",
                   "attachments": [
                     {
                       "name": "trace",
@@ -255,8 +255,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-02-06T21:24:46.199Z",
-    "duration": 12495.058,
+    "startTime": "2025-02-06T21:43:57.561Z",
+    "duration": 11860.574,
     "expected": 4,
     "skipped": 0,
     "unexpected": 0,

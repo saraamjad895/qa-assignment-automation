@@ -29,7 +29,7 @@ export default defineConfig({
       open: 'never',  // Don't open the report automatically
     }],
     ['json', {
-      outputFile: 'playwright-reports/results.json',
+      outputFile: 'Reports/results.json',
     }],
     ['dot'],  // Outputs a simple dot for each test (e.g., '.' for success, 'F' for failure)
   ],
