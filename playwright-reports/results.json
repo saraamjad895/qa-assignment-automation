@@ -1,0 +1,265 @@
+{
+  "config": {
+    "configFile": "/Users/cofeapp/Documents/heroKuApp/playwright.config.js",
+    "rootDir": "/Users/cofeapp/Documents/heroKuApp/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 4
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "html",
+        {
+          "outputFolder": "Reports",
+          "open": "never"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "playwright-reports/results.json"
+        }
+      ],
+      [
+        "dot",
+        null
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "/Users/cofeapp/Documents/heroKuApp/test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "metadata": {},
+        "id": "APITests",
+        "name": "APITests",
+        "testDir": "/Users/cofeapp/Documents/heroKuApp/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/cofeapp/Documents/heroKuApp/test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "metadata": {},
+        "id": "BrowserTests",
+        "name": "BrowserTests",
+        "testDir": "/Users/cofeapp/Documents/heroKuApp/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.50.1",
+    "workers": 6,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "Web/dynamicLoading.spec.js",
+      "file": "Web/dynamicLoading.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Automate the process of starting the dynamic loading and verify the final message",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "BrowserTests",
+              "projectName": "BrowserTests",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 9880,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-02-06T21:24:46.807Z",
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/Users/cofeapp/Documents/heroKuApp/test-results/Web-dynamicLoading-Automat-04232-nd-verify-the-final-message-BrowserTests/trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e97aef8eaa177493f3f5-c3efff733b96498473c6",
+          "file": "Web/dynamicLoading.spec.js",
+          "line": 6,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Web/fileUpload.spec.js",
+      "file": "Web/fileUpload.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Automate the file upload file process and verify the success message",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "BrowserTests",
+              "projectName": "BrowserTests",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "status": "passed",
+                  "duration": 5603,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-02-06T21:24:46.807Z",
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/Users/cofeapp/Documents/heroKuApp/test-results/Web-fileUpload-Automate-th-a3473--verify-the-success-message-BrowserTests/trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "31a9c9fbe80d347df423-36a63bd196972cc3103c",
+          "file": "Web/fileUpload.spec.js",
+          "line": 6,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Web/login.spec.js",
+      "file": "Web/login.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Validate successful login using the provided valid credentials",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "BrowserTests",
+              "projectName": "BrowserTests",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "status": "passed",
+                  "duration": 6305,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-02-06T21:24:46.809Z",
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/Users/cofeapp/Documents/heroKuApp/test-results/Web-login-Validate-success-971d0--provided-valid-credentials-BrowserTests/trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "29e4ec0646c8823e42fa-b7e8fa5aa5819a584cd1",
+          "file": "Web/login.spec.js",
+          "line": 14,
+          "column": 5
+        },
+        {
+          "title": "Validate that incorrect credentials produce an appropriate error message",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "BrowserTests",
+              "projectName": "BrowserTests",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "status": "passed",
+                  "duration": 6570,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-02-06T21:24:46.810Z",
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/Users/cofeapp/Documents/heroKuApp/test-results/Web-login-Validate-that-in-38fad-n-appropriate-error-message-BrowserTests/trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "29e4ec0646c8823e42fa-79c1c9af0eb325298299",
+          "file": "Web/login.spec.js",
+          "line": 24,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-02-06T21:24:46.199Z",
+    "duration": 12495.058,
+    "expected": 4,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
