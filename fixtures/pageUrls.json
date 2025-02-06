@@ -1,9 +1,14 @@
 {
     "webUrls": {
         "loginUrl": "https://the-internet.herokuapp.com/login",
-        "successfulLoginUrl": "https://the-internet.herokuapp.com/secure"
+        "successfulLoginUrl": "https://the-internet.herokuapp.com/secure",
+        "dynamicLoadingUrl": "https://the-internet.herokuapp.com/dynamic_loading/1",
+        "fileUploadUrl": "https://the-internet.herokuapp.com/upload"
     },
     "ApiEndpoints": {
         "getApiUrl": "https://jsonplaceholder.typicode.com/posts"
+    },
+    "filePathUrl": {
+        "filePath": "./Utils/files/testFile.jpg"
     }
 }
