@@ -37,19 +37,21 @@ export default defineConfig({
   /* Configure projects for major browsers */
   projects: [
     {
-      name: 'chromium',
-      use: { ...devices['Desktop Chrome'] },
+      name: 'APITests',
+      use: {
+        headless: true,
+        browserName: 'webkit',
+        launchOptions: {
+          args: ['--no-sandbox', '--disable-setuid-sandbox'],
+        },
+      },
     },
-
     {
-      name: 'firefox',
-      use: { ...devices['Desktop Firefox'] },
-    },
-
-    {
-      name: 'webkit',
-      use: { ...devices['Desktop Safari'] },
-    },
+      name: 'BrowserTests',
+      use: {
+        browserName: 'chromium',
+      },
+    }
 
     /* Test against mobile viewports. */
     // {

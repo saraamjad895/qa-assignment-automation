@@ -15,6 +15,8 @@ class commonLib {
 
     /**
      * Func to get text of element
+     * @param {Locator} locator 
+     * @returns 
      */
     async getText(locator) {
         const text = await locator.textContent();
@@ -23,10 +25,19 @@ class commonLib {
 
     /**
      * Func to wait for element to be visible
+     * @param {Locator} locator 
      */
     async waitForElementToBeVisible(locator) {
         await locator.waitFor({ state: 'visible' })
         await expect(locator).toBeVisible()
+    }
+
+    /**
+     * Generate random id
+     * @returns 
+     */
+    async generateRandomId() {
+        return Math.floor(Math.random() * 1000) + 1;
     }
 } module.exports = { commonLib }
 

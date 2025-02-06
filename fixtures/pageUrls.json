@@ -10,5 +10,10 @@
     },
     "filePathUrl": {
         "filePath": "./Utils/files/testFile.jpg"
+    },
+    "ApiEndpoint": {
+        "baseUrl": "https://jsonplaceholder.typicode.com/",
+        "getPosts": "posts/",
+        "post_Posts": "posts"
     }
 }

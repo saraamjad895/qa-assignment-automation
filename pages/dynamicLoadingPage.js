@@ -17,7 +17,7 @@ class dynamicLoadingPage {
 
     /**
      * Func to get text message on last screen
-     * @returns string
+     * @returns
      */
     async getFinalTextAfterLoading() {
         const text = await this.helloWorldMessage.textContent();

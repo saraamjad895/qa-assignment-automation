@@ -1,13 +1,9 @@
 // @ts-check
 import { test, expect } from '@playwright/test';
-import { POManager } from '../helper/POManager';
-const userCredentials = JSON.parse(JSON.stringify(require("../fixtures/userCredentials.json")));
-const pageUrls = JSON.parse(JSON.stringify(require("../fixtures/pageUrls.json")));
-//Objects variable
-let poManager
-let common
-let loginPage
-let securepage
+import { POManager } from '../../helper/POManager';
+const userCredentials = JSON.parse(JSON.stringify(require("../../fixtures/userCredentials.json")));
+const pageUrls = JSON.parse(JSON.stringify(require("../../fixtures/pageUrls.json")));
+let poManager, common, loginPage, securepage
 test.beforeEach(async ({ page }) => {
   poManager = new POManager(page);
   common = poManager.getCommonLib();

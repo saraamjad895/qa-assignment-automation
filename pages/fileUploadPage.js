@@ -10,7 +10,7 @@ class fileUploadPage {
 
     /**
      * Func to click on choose button and select file
-     * @param {string} filePath 
+     * @param {String} filePath 
      */
     async clickChooseFileBtn(filePath) {
         const fileChooserPromise = this.page.waitForEvent('filechooser');

@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "LoginTestChrome": "npx playwright test --project=chromium",
-    "APITest": "npx playwright test tests/getApi.spec.js -g 'Get API test'  --project=chromium"
+    "webTest": "npx playwright test tests/Web --project=BrowserTests",
+    "APITest": "npx playwright test tests/Apis --project=APITests"
   },
   "keywords": [],
   "author": "",

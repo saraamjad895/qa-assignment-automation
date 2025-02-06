@@ -1,7 +1,7 @@
 // @ts-check
 import { test, expect } from '@playwright/test';
-import { POManager } from '../helper/POManager';
-const pageUrls = JSON.parse(JSON.stringify(require("../fixtures/pageUrls.json")));
+import { POManager } from '../../helper/POManager';
+const pageUrls = JSON.parse(JSON.stringify(require("../../fixtures/pageUrls.json")));
 
 test('Automate the file upload file process and verify the success message', async ({ page }) => {
   const poManager = new POManager(page);

@@ -1,0 +1,12 @@
+{
+    "postRequestBody": {
+        "userId": 100,
+        "title": "QA task",
+        "body": "Sara test body",
+        "id": 101
+    },
+    "putRequestBody": {
+        "title": "Updated title",
+        "body": "Updated title"
+    }
+}
